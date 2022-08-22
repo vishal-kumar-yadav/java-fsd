@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+
+body {
+	 background-image: url("tickettt.jpg");
+ 	background-repeat: no-repeat;
+     background-size: 1600px 700px;
+    font-family: 'Trebuchet MS';
+}
+
+h4{
+    text-align: center;
+    margin-top: 0;
+    
+    padding : 10px;
+
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+h3{
+    text-align: left;
+    margin-top: 0;
+    
+    padding : 10px;
+
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+
+.containerti{
+	
+	background-color: #778899;
+    color: Black;
+    max-width: 500px;
+    margin: 10vh auto 0 auto;
+  
+    height: 500px;
+}
+
+
+
+
+#btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+input[type=number] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 20%;
+  }
+  input[type=number]:focus {
+    border: 3px solid #555;
+  }

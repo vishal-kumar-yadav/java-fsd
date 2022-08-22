@@ -1,0 +1,79 @@
+@charset "ISO-8859-1";
+
+body {
+	 background-image: url("Screenshot (203).png");
+ 
+    font-family: 'Trebuchet MS';
+     background-repeat: no-repeat;
+     background-size: 1600px 750px;
+}
+
+
+#datee {
+	 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: black;
+  font-size:20px;
+  padding : 10px;
+  margin-top : 80px;
+  
+}
+#head {
+	 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: black;
+  font-size:20px;
+  border-collapse: collapse;
+  width: 100%;
+  
+  
+}
+#head2 {
+	 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: black;
+  font-size:20px;
+  border-collapse: collapse;
+  width: 100%;
+  background-color:grey;
+  
+  
+}
+
+
+
+h3{
+    text-align: center;
+    margin-top: 0;
+    background-color:black;
+    padding : 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+input#submit{
+    background:url(Book-Button-1.png);
+    background-repeat: no-repeat;
+    width:100px; 
+    height:50px; 
+  border: 0;
+  background-size: 100%;
+    font-size: 0;
+	line-height: 0;
+	margin-right:-60px;
+	
+}
+
+
+#submit {
+  padding: 20px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+#submit:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
