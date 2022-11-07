@@ -64,7 +64,7 @@ public class QueryServlet extends HttpServlet {
 		PreparedStatement pst = null;
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver"); 			
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/Product","root","Samruddhi@97R");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/Product","root","admin@9ty");
 			pst = conn.prepareStatement(sql);
 			pst.setString(1, request.getParameter("ProductID"));
 			ResultSet rs = pst.executeQuery();
